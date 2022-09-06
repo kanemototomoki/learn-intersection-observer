@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main {
+  margin-top: -50px;
+}
+
+.div1 {
+  background-color: #005588;
+  height: 400px;
+}
+
+.div2 {
+  background-color: #331188;
+  height: 500px;
+}
+
+.div3 {
+  background-color: #115511;
+  height: 300px;
+}
+
+.header {
+  background-color: red;
+  height: 50px;
+  position: sticky;
+  transition: all 0.3s;
+  transform: translateY(-50px);
+  top: 0;
+  z-index: 100;
+}
+
+.header.is-show {
+  transform: translateY(0px);
+}
+
+.footer {
+  background-color: pink;
+  height: 50px;
+}
